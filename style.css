@@ -1,0 +1,75 @@
+ body {
+    margin: 0;
+    background: #FFF5D1;
+    font-family: "Noto Sans Kannada", sans-serif;
+}
+
+header {
+    background: linear-gradient(45deg, #FF7B00, #FFB300);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.menu button {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #FF9100;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.menu button:hover {
+    background: #FF6A00;
+}
+
+#content {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.member-box {
+    background: #FFE4B5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+input, select {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #FFB300;
+}
+
+.send-btn {
+    background: green;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
